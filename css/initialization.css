@@ -1,0 +1,25 @@
+/* 初始化定义 */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+
+.container{
+    padding: 0px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+img{
+    border: 0px;
+}
+

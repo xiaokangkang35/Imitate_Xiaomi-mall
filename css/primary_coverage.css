@@ -1,0 +1,246 @@
+/* 主要内容 */
+
+.home-main{
+    padding-top: 4px;
+    padding-bottom: 12px;
+    background: #f5f5f5;
+}
+
+.primary_top{
+    height: 120px;
+    margin: 22px 0;
+    overflow: hidden;
+}
+
+.home-brick-box{
+    margin-bottom: 8px;
+}
+
+.box_header{
+    position: relative;
+    height: 58px;
+}
+.box_header>h2{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+
+.more{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.more>a{
+    font-size: 16px;
+    line-height: 58px;
+    color: #424242;
+    transition: all .4s;
+}
+
+.more>a:hover{
+    color: #ff6700;
+}
+
+.row{
+    margin-left: -14px;
+}
+.span_1{
+    width: 234px;
+    float: left;
+    margin-left: 14px;
+    min-height: 1px;
+}
+
+.span_2{
+    width: 978px;
+    float: left;
+    margin-left: 14px;
+    min-height: 1px;
+}
+
+.brick-promo-list{
+    margin: 0 0 -14px -14px;
+    height: 614px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.brick-promo-list>li{
+    height: 614px;
+    position: relative;
+    float: left;
+    width: 234px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: #fff;
+    top: 0px;
+}
+
+.brick-promo-list>li:hover{
+    top: -3px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.24);
+}
+
+.brick-list{
+    margin: 0 0 -14px -14px;
+    width: 992px;
+    height: 614px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.brick-item{
+    height: 300px;
+    padding: 0px;
+    position: relative;
+    float: left;
+    width: 234px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: #fff;
+    top: 0px;
+}
+
+.brick-item:hover{
+    top: -3px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.24);
+}
+
+.brick-item>a{
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+
+.brick-item-img{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 18px;
+    border: 0px;
+}
+
+.brick-item-img>img{
+    width: 160px;
+    height: 160px;
+}
+
+.brick-item h3{
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    margin: 0 10px 2px;
+}
+
+.brick-item>a>p{
+    margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+    color: #b0b0b0;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.price{
+    margin: 0 10px 14px;
+    text-align: center ;
+    color: #ff6700 !important;
+    font-size: 15px !important;
+}
+
+.del{
+    margin-left: .5em;
+    color: #b0b0b0 !important;
+}
+
+.tab-list{
+    margin: 0px;
+    padding: 16px 0px 0px ;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.tab-list li{
+    margin: 0px 0px 0px 30px;
+    display: inline-block;
+    padding: 0px;
+    color: #424242;
+}
+
+.tab-list-after{
+    color: #ff6700 !important;
+    border-bottom: 2px solid #ff6700;
+}
+
+.brick-item_a{
+    position: relative;
+    float: left;
+    width: 234px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: #fff;
+    height: 143px;
+    padding-top: 50px;
+}
+
+.more_a{
+    display: block;
+    margin: 0px 110px 0px 30px;
+    font-size: 18px;
+    color: #333;
+}
+
+.figure_more_a{
+    position: absolute;
+    right: 35px;
+    top: 48px;
+    width: 48px;
+    height: 48px;
+    color: #ff6700;
+}
+
+.more_a small{
+    display: block;
+    font-size: 12px;
+    color: #757575;
+}
+
+.figure_more_a span{
+font-size: 48px;
+line-height: 48px;
+}
+
+.brick-item_a:hover{
+    top: -3px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.24);
+}
+
+
+/* 倒计时 */
+.count_down{
+    position: absolute;
+    bottom: 30px;
+    margin: auto;
+    left: 60px;
+}
+
+.count_down span{
+    display: inline-block;
+    width: 30px;
+    height: 26px;
+    font-size: 26px;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
+    line-height: 26px;
+}

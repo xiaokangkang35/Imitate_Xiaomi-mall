@@ -1,0 +1,72 @@
+/* 轮播图区域 */
+
+.home-hero{
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.row{
+    margin-left: -14px;
+}
+
+.spanleft{
+    width: 234px;
+    float: left;
+    margin-left: 14px;
+    min-height: 1px;
+}
+
+.home-channel-list{
+    margin: 0px;
+    padding: 3px;
+    list-style-type: none;
+    font-size: 12px;
+    text-align: center;
+    background: #5f5750;
+    height: 170px;
+}
+
+.home-channel-list li{
+    position: relative;
+    float: left;
+    width: 76px;
+    height: 82px;
+    padding: 0px 3px;
+}
+
+.home-channel-list a{
+    display: block;
+    padding-top: 18px;
+    color: #fff;
+}
+
+.home-channel-list img{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto 4px;
+}
+
+.spanright{
+    width: 978px;
+    float: left;
+    margin-left: 14px;
+    min-height: 1px;
+}
+
+.spanright>ul{
+    list-style: none;
+}
+
+.spanright>ul>li{
+    float: left;
+    width: 316px;
+    height: 170px;
+    margin-left: 15px;
+}
+
+.spanright>ul>li>img{
+    display: block;
+    width: 316px;
+    height: 170px;
+}

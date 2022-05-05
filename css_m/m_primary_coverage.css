@@ -1,0 +1,52 @@
+.primary_coverage_box{
+    position: relative;
+    width: 100vw;
+    top: 1.44rem;
+}
+
+
+.photo{
+    width: 100vw;
+    height: 5.08rem;
+    position: relative;
+}
+
+.photo_img_1{
+    width: 48vw;
+    position: absolute;
+}
+
+.photo_img_1 img{
+    width: 100%;
+}
+
+.photo_img_2{
+    width: 48vw;
+    position: absolute;
+    left: 50vw;
+}
+
+.photo_img_2 img{
+    width: 100%;
+}
+
+/* 框架css */
+.frame{
+    width: 100vw;
+    display: flex;
+    background: rgb(255, 255, 255);
+}
+
+.frame_img{
+    position: relative;
+}
+
+.frame_img img{
+    width: 3.44rem;
+    height: 2.8rem;
+}
+
+.frame_text{
+    text-align: center;
+
+}

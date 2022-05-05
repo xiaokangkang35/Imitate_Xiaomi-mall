@@ -1,0 +1,47 @@
+/* 右侧固定按钮 */
+
+.return_top_box{
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    z-index: 99;
+}
+
+.return_top_box a{
+    position: relative;
+    display: block;
+    width: 82px;
+    height: 90px;
+    margin-top: -1px;
+    background-color: #fff;
+    border: 1px solid #f5f5f5;
+    text-align: center;
+}
+
+.return_top_box a div{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto 8px;
+    padding-top: 46px;
+}
+
+.return_top_box a div img{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+.return_top_box a span{
+    color: #757575;
+}
+
+.return_top_box a span:hover{
+    color: #ff6700;
+}
+
+.top:hover{
+    color: #757575 !important;
+}

@@ -1,0 +1,125 @@
+.header{
+    position: fixed;
+    box-shadow: 0px 2px 4px -1px rgb(0, 0, 0, 0.2);
+    width: 100vw;
+    background-color: #f2f2f2;
+    z-index: 2;
+}
+
+.header_first{
+    height: .84rem;
+    background-color: #f2f2f2;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo{
+    width: .6rem;
+    display: flex;
+    align-items: center;
+    margin: 0 .2rem;
+}
+
+.header_logo img{
+    width: 85%;
+}
+
+.header_search{
+    flex: 1;
+    font-size: .3rem;
+    display: flex;
+    align-items: center;
+}
+
+.header_title{
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    text-align: left;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: .3rem;
+    color: rgba(0,0,0,.3);
+}
+
+.title_img{
+    width: .6rem;
+    padding: .1rem;
+    display: flex;
+}
+
+.title_img img{
+    width: .4rem;
+    height: .4rem;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+}
+
+.header_item{
+    width: .6rem;
+    margin: 0 .2rem;
+}
+
+.img_box{
+    display: flex;
+    width: .6rem;
+    height: .6rem;
+    padding: .1rem;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.img_box img{
+    width: .4rem;
+    height: .4rem;
+}
+
+.header_second{
+    position: relative;
+    overflow: hidden;
+    height: .6rem;
+}
+
+.vector{
+    position: absolute;
+    right: 0;
+
+    width: .68rem;
+    height: .25rem;
+    line-height: .25rem;
+    background-color: #f2f2f2;
+    box-shadow: -15px 0 15px 0 #f2f2f2;
+}
+
+.vector img{
+    width: .4rem;
+    height: .4rem;
+}
+
+.nav{
+    background-color: #f2f2f2;
+    font-size: .3rem;
+    white-space: nowrap;
+}
+
+.nav-item{
+    display: inline-block;
+    padding: 0 .25rem;
+    font-size: .1rem;
+}
+
+.nav-item span{
+    display: inline-block;
+    line-height: .55rem;
+    border-bottom: 2px solid rgba(237,91,0,0);
+    font-size: .3rem;
+    color: rgb(116, 116, 116);
+    border-color: rgb(242, 242, 242);
+}

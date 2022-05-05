@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>mi</title>
+    <link rel="shot icon" href="./images/mi_log.jpg">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./bootstrap框架/css/bootstrap.css">
+
+    <!-- 初始化定义 -->
+    <link rel="stylesheet" href="./css/initialization.css">
+    <!-- 顶部导航栏 -->
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- 轮播图区域 -->
+    <link rel="stylesheet" href="./css/home_hero.css">
+    <!-- 主要内容区域-->
+    <link rel="stylesheet" href="./css/primary_coverage.css">
+    <!-- 登录界面 -->
+    <link rel="stylesheet" href="./css/Login_interface.css">
+    <link rel="stylesheet" href="./css/sign_in.css">
+    <!-- 右侧固定一长列 -->
+    <link rel="stylesheet" href="./css/return_top.css">
+    <!-- 最底部-预约维修-下面白色一块 -->
+    <link rel="stylesheet" href="./css/bottom_information.css">
+
+    <script src="./js/index.js"></script>
+  </head>
+  <body>
+      <!-- 顶部导航栏 -->
+    <div>
+        <div class="header">
+            <div class="site-topbar">
+                <div class="container">
+                    <div class="topbar-nav">
+                        <a href="#">小米商城</a>
+                        <span class="sep">|</span>
+                        <a href="#">MIUI</a>
+                        <span class="sep">|</span>
+                        <a href="#">loT</a>
+                        <span class="sep">|</span>
+                        <a href="#">云服务</a>
+                        <span class="sep">|</span>
+                        <a href="#">天星数科</a>
+                        <span class="sep">|</span>
+                        <a href="#">有品</a>
+                        <span class="sep">|</span>
+                        <a href="#">小爱开放平台</a>
+                        <span class="sep">|</span>
+                        <a href="#">企业团购</a>
+                        <span class="sep">|</span>
+                        <a href="#">资质证照</a>
+                        <span class="sep">|</span>
+                        <a href="#">协议规定</a>
+                        <span class="sep">|</span>
+                        <a href="#">下载app</a>
+                        <span class="sep">|</span>
+                        <a href="#">Select Location</a>
+                    </div>
+                    <div class="topbar-cart">
+                        <a href="#" id="shopping_cart_before" class="cart-mini">
+                            购物车
+                            <span>(0)</span>
+                        </a>
+                        <div class="cart-menu" id="shopping_cart_after" style="display: none;">
+                            <div class="cart-menu_text">购物车中还没有商品，赶紧选购吧！</div>
+                        </div>
+                    </div>
+                    <div class="topbar-info">
+                        <a onclick="addClick();">登录</a>
+                        <span class="sep">|</span>
+                        <a href="#">注册</a>
+                        <span class="sep">|</span>
+                        <a href="#">消息通知</a>
+                    </div>
+                </div>
+            </div>
+            <div class="site-header">
+                <div class="container">
+                    <div class="header-logo"><img src="./images/mi_log.jpg" alt=""></div>
+                    <div class="header-nav">
+                        <ul class="nav-list">
+                            <li class="nav-category">
+                                <a class="link-category" href="#"><span style="display: none;" class="text">全部商品分类</span></a>
+                                <div class="site-category">
+                                    <ul class="site-category-list">
+                                        <li class="category-item">
+                                            <a class="title" id="col-1" href="#">手机<span class="glyphicon glyphicon-chevron-right arrow" aria-hidden="true"></span></a>
+                                            <div id="list-col-1" class="children-list-col" style="display: none;">
+                                                <ul class="children-list-col-1">
+                                                    <li>
+                                                        <a href="" class="links">
+                                                            <img src="./images/左侧列表/1_1_1.jpg" alt="1_1_1" class="themb">
+                                                            <span class="text">Xiaomi Civi 1S</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="" class="links">
+                                                            <img src="./images/左侧列表/1_1_1.jpg" alt="1_1_1" class="themb">
+                                                            <span class="text">Xiaomi Civi 1S</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="" class="links">
+                                                            <img src="./images/左侧列表/1_1_1.jpg" alt="1_1_1" class="themb">
+                                                            <span class="text">Xiaomi Civi 1S</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="" class="links">
+                                                            <img src="./images/左侧列表/1_1_1.jpg" alt="1_1_1" class="themb">
+                                                            <span class="text">Xiaomi Civi 1S</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="" class="links">
+                                                            <img src="./images/左侧列表/1_1_1.jpg" alt="1_1_1" class="themb">
+                                                            <span class="text">Xiaomi Civi 1S</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="" class="links">
+                                                            <img src="./images/左侧列表/1_1_1.jpg" alt="1_1_1" class="themb">
+                                                            <span class="text">Xiaomi Civi 1S</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="children-list-col-2">
+                                                    <li>
+                                                        <a href="" class="links">
+                                                            <img src="./images/左侧列表/1_1_1.jpg" alt="1_1_1" class="themb">
+                                                            <span class="text">Xiaomi Civi 1S</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="children-list-col-3">
+                                                    <li>
+                                                        <a href="" class="links">
+                                                            <img src="./images/左侧列表/1_1_1.jpg" alt="1_1_1" class="themb">
+                                                            <span class="text">Xiaomi Civi 1S</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="children-list-col-4">
+                                                    <li>
+                                                        <a href="" class="links">
+                                                            <img src="./images/左侧列表/1_1_1.jpg" alt="1_1_1" class="themb">
+                                                            <span class="text">Xiaomi Civi 1S</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="category-item"><a class="title" href="#">电视<span class="glyphicon glyphicon-chevron-right arrow" aria-hidden="true"></span></a></li>
+                                        <li class="category-item"><a class="title" href="#">笔记本 平板<span class="glyphicon glyphicon-chevron-right arrow" aria-hidden="true"></span></a></li>
+                                        <li class="category-item"><a class="title" href="#">家电<span class="glyphicon glyphicon-chevron-right arrow" aria-hidden="true"></span></a></li>
+                                        <li class="category-item"><a class="title" href="#">出行 穿戴<span class="glyphicon glyphicon-chevron-right arrow" aria-hidden="true"></span></a></li>
+                                        <li class="category-item"><a class="title" href="#">智能 路由器<span class="glyphicon glyphicon-chevron-right arrow" aria-hidden="true"></span></a></li>
+                                        <li class="category-item"><a class="title" href="#">电源 配件<span class="glyphicon glyphicon-chevron-right arrow" aria-hidden="true"></span></a></li>
+                                        <li class="category-item"><a class="title" href="#">健康 儿童<span class="glyphicon glyphicon-chevron-right arrow" aria-hidden="true"></span></a></li>
+                                        <li class="category-item"><a class="title" href="#">耳机 音箱<span class="glyphicon glyphicon-chevron-right arrow" aria-hidden="true"></span></a></li>
+                                        <li class="category-item"><a class="title" href="#">生活 箱包<span class="glyphicon glyphicon-chevron-right arrow" aria-hidden="true"></span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="nav-item-1" class="nav-item"><a class="link" href="#">Xiaomi手机</a></li>
+                            <li id="nav-item-2" class="nav-item"><a class="link" href="#">Redmi红米</a></li>
+                            <li class="nav-item"><a class="link" href="#">电视</a></li>
+                            <li class="nav-item"><a class="link" href="#">笔记本</a></li>
+                            <li class="nav-item"><a class="link" href="#">平板</a></li>
+                            <li class="nav-item"><a class="link" href="#">家电</a></li>
+                            <li class="nav-item"><a class="link" href="#">路由器</a></li>
+                            <li class="nav-item"><a class="link" href="#">服务</a></li>
+                            <li class="nav-item"><a class="link" href="#">社区</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-search">
+                        <div class="search">
+                            <input type="text" class="search_input">
+                            <button type="button" class="search_button" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="header-nav-menu_1" class="header-nav-menu" style="display: none;">
+                    <div class="container">
+                        <ul class="children-list clearfix">
+                            <li>
+                                <a href="#">
+                                    <div class="figure-thumb">
+                                        <img src="./images/1.jpg" alt="">
+                                    </div>
+                                    <div class="figure_title"> Xiaomi Civi 1s</div>
+                                    <p class="price">2299元起</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="figure-thumb">
+                                        <img src="./images/1.jpg" alt="">
+                                    </div>
+                                    <div class="figure_title"> Xiaomi Civi 1s</div>
+                                    <p class="price">2299元起</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="figure-thumb">
+                                        <img src="./images/1.jpg" alt="">
+                                    </div>
+                                    <div class="figure_title"> Xiaomi Civi 1s</div>
+                                    <p class="price">2299元起</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="figure-thumb">
+                                        <img src="./images/1.jpg" alt="">
+                                    </div>
+                                    <div class="figure_title"> Xiaomi Civi 1s</div>
+                                    <p class="price">2299元起</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="figure-thumb">
+                                        <img src="./images/1.jpg" alt="">
+                                    </div>
+                                    <div class="figure_title"> Xiaomi Civi 1s</div>
+                                    <p class="price">2299元起</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="figure-thumb">
+                                        <img src="./images/1.jpg" alt="">
+                                    </div>
+                                    <div class="figure_title"> Xiaomi Civi 1s</div>
+                                    <p class="price">2299元起</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="header-nav-menu_2" class="header-nav-menu" style="display: none;">
+                    <div class="container">
+                        <ul class="children-list clearfix">
+                            <li>
+                                <a href="#">
+                                    <div class="figure-thumb">
+                                        <img src="./images/2.jpg" alt="">
+                                    </div>
+                                    <div class="figure_title">Redmi 10A</div>
+                                    <p class="price">699元起</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="figure-thumb">
+                                        <img src="./images/2.jpg" alt="">
+                                    </div>
+                                    <div class="figure_title">Redmi 10A</div>
+                                    <p class="price">699元起</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="figure-thumb">
+                                        <img src="./images/2.jpg" alt="">
+                                    </div>
+                                    <div class="figure_title">Redmi 10A</div>
+                                    <p class="price">699元起</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="figure-thumb">
+                                        <img src="./images/2.jpg" alt="">
+                                    </div>
+                                    <div class="figure_title">Redmi 10A</div>
+                                    <p class="price">699元起</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="figure-thumb">
+                                        <img src="./images/2.jpg" alt="">
+                                    </div>
+                                    <div class="figure_title">Redmi 10A</div>
+                                    <p class="price">699元起</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="figure-thumb">
+                                        <img src="./images/2.jpg" alt="">
+                                    </div>
+                                    <div class="figure_title">Redmi 10A</div>
+                                    <p class="price">699元起</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 轮播图区域 -->
+    <div class="container">
+        <div class="home-hero">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators" style="width: 20%;left: 110%;">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                </ol>
+            
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="./images/Rotation_map_1.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <img src="./images/Rotation_map_2.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <img src="./images/Rotation_map_3.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <img src="./images/Rotation_map_4.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <img src="./images/Rotation_map_5.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <img src="./images/Rotation_map_6.jpg" alt="...">
+                </div>
+                </div>
+            
+                <!-- Controls -->
+                <a class="carousel-control" style="left: 234px;" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" style="margin-left: -85px;" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control" style="right: 0; left: auto;" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" style="margin-right: -85px;" aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div class="row" style="margin-top: 14px;">
+                <div class="spanleft">
+                    <ul class="home-channel-list">
+                        <li>
+                            <a href="#">
+                                <img src="./images/spanleft_1.jpg" alt="">
+                                保障服务
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/spanleft_2.jpg" alt="">
+                                企业团购
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/spanleft_3.jpg" alt="">
+                                F码通道
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/spanleft_4.jpg" alt="">
+                                米粉卡
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/spanleft_5.jpg" alt="">
+                                以旧换新
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/spanleft_6.jpg" alt="">
+                                话费充值
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="spanright">
+                    <ul>
+                        <li style="margin-left: 0px;"><img src="./images/spanright-1.jpg" alt=""></li>
+                        <li><img src="./images/spanright-2.jpg" alt=""></li>
+                        <li><img src="./images/spanright-3.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 主要内容 -->
+    <div class="home-main">
+        <div class="container">
+            <div class="primary_top">
+                <img src="./images/primar_top.jpg" alt="">
+            </div>
+
+
+            <!-- 第一个主要内容 -->
+            <div class="home-brick-box">
+                <div class="box_header">
+                    <h2>手机</h2>
+                    <div class="more">
+                        <a href="#">
+                            查看更多
+                            <span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="span_1">
+                            <ul class="brick-promo-list">
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/primary_left_1.jpg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="span_2">
+                            <ul class="brick-list">
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/primary_1.jpg" alt="">
+                                        </div>
+                                        <h3 >Xiaomi Civi 1S</h3>
+                                        <p>你的光芒 天生好看</p>
+                                        <p class="price">
+                                            2299元起
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/primary_2.jpg" alt="">
+                                        </div>
+                                        <h3 >Redmi 10A</h3>
+                                        <p>大电量、大音量、大屏幕</p>
+                                        <p class="price">
+                                            649元起
+                                            <del style="color: #b0b0b0;">
+                                                <span>699元</span>
+                                            </del>
+                                        </p>
+                                        
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/primary_3.jpg" alt="">
+                                        </div>
+                                        <h3 >Redmi K50 Pro</h3>
+                                        <p>2k直屏的狠旗舰</p>
+                                        <p class="price">
+                                            2399元起
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/primary_4.jpg" alt="">
+                                        </div>
+                                        <h3 >Redmi K50</h3>
+                                        <p>2k直屏的狠旗舰</p>
+                                        <p class="price">
+                                            2299元起
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/primary_5.jpg" alt="">
+                                        </div>
+                                        <h3>Redmi K40S</h3>
+                                        <p>口碑真旗舰</p>
+                                        <p class="price">
+                                            1799元起
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/primary_6.jpg" alt="">
+                                        </div>
+                                        <h3 >Redmi K50 电竞版</h3>
+                                        <p>全线拉满的冷血旗舰</p>
+                                        <p class="price">
+                                            3299元起
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/primary_7.jpg" alt="">
+                                        </div>
+                                        <h3 >Xiaomi 12 Pro</h3>
+                                        <p>全新晓龙8 | 2k AMOLED屏幕</p>
+                                        <p class="price">
+                                            4699元起
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/primary_8.jpg" alt="">
+                                        </div>
+                                        <h3 >Xiaomi 12</h3>
+                                        <p>全新晓龙8 | 5000万主摄</p>
+                                        <p class="price">
+                                            3699元起
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 第二个 -->
+            <div class="home-brick-box">
+                <div class="box_header">
+                    <h2>智能穿戴</h2>
+                    <div class="more">
+                        <ul class="tab-list">
+                            <li class="tab-list-after" id="one">热门</li>
+                            <li id="two">穿戴</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="span_1">
+                            <ul class="brick-promo-list">
+                                <li>
+                                    <!-- 倒计时 -->
+                                    <div class="count_down" >
+                                        <div style="font-size: 16px;">距活动结束还有:</div>
+                                        <span id="shi"></span>
+                                        :
+                                        <span id="fen"></span>
+                                        :
+                                        <span id="miao1"></span>
+                                    </div>
+
+                                    <a href="#">
+                                        <img src="./images/primary_left_2.jpg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- 热门 -->
+                        <div id="two_3" class="span_2" style="display: block;">
+                            <ul class="brick-list">
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/1_1.jpg" alt="">
+                                        </div>
+                                        <h3 >Xiaomi Watch S1</h3>
+                                        <p>腕事具备</p>
+                                        <p class="price">
+                                            1099元起
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/1_2.jpg" alt="">
+                                        </div>
+                                        <h3 >Xiaomi真无线降噪耳机3</h3>
+                                        <p>静听好声音</p>
+                                        <p class="price">
+                                            459元起
+                                            <del style="color: #b0b0b0;">
+                                                <span>499元</span>
+                                            </del>
+                                        </p>
+                                        
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/1_3.jpg" alt="">
+                                        </div>
+                                        <h3 >Redmi 手表 2</h3>
+                                        <p>AMOLED高清大屏</p>
+                                        <p class="price">
+                                            399元起
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/1_4.jpg" alt="">
+                                        </div>
+                                        <h3 >小米手环6 NFC版</h3>
+                                        <p>全屏实力</p>
+                                        <p class="price">
+                                            249元起
+                                            <del style="color: #b0b0b0;">
+                                                <span>279元</span>
+                                            </del>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/1_5.jpg" alt="">
+                                        </div>
+                                        <h3>Xiaomi 真无线降噪耳机 3 Pro</h3>
+                                        <p>动态降噪 静听曼妙</p>
+                                        <p class="price">
+                                            699元起
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/1_6.jpg" alt="">
+                                        </div>
+                                        <h3>Redmi Buds 3</h3>
+                                        <p>轻巧半入耳，舒适有天分</p>
+                                        <p class="price">
+                                            199元起
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/1_7.jpg" alt="">
+                                        </div>
+                                        <h3>Redmi Buds 3 青春版</h3>
+                                        <p>轻巧无线 持久动听</p>
+                                        <p class="price">
+                                            99元起
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item_a">
+                                    <a href="#">
+                                        <div class="figure_more_a">
+                                            <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
+                                        </div>
+                                        <div class="more_a">
+                                            浏览更多
+                                            <small>热门</small>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <!-- 穿戴 -->
+                        <div id="two_2" class="span_2" style="display: none;">
+                            <ul class="brick-list">
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/2_1.jpg" alt="">
+                                        </div>
+                                        <h3 >小米手环6</h3>
+                                        <p>全屏实力</p>
+                                        <p class="price">
+                                            209元起
+                                            <del style="color: #b0b0b0;">
+                                                <span>229元</span>
+                                            </del>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/2_2.jpg" alt="">
+                                        </div>
+                                        <h3 >小米手环5 NFC版</h3>
+                                        <p>多功能NFC 11钟运动模式</p>
+                                        <p class="price">
+                                            189元起
+                                            <del style="color: #b0b0b0;">
+                                                <span>229元</span>
+                                            </del>
+                                        </p>
+                                        
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/2_3.jpg" alt="">
+                                        </div>
+                                        <h3 >Redmi AirDots 3真无线蓝牙耳机</h3>
+                                        <p>圈铁音质，超长续航</p>
+                                        <p class="price">
+                                            169元起
+                                            <del style="color: #b0b0b0;">
+                                                <span>199元</span>
+                                            </del>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/2_4.jpg" alt="">
+                                        </div>
+                                        <h3 >小米真无线蓝牙耳机Air 2 Pro</h3>
+                                        <p>主动降噪/持久续航/无线充</p>
+                                        <p class="price">
+                                            399元起
+                                            <del style="color: #b0b0b0;">
+                                                <span>699元</span>
+                                            </del>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item">
+                                    <a href="#">
+                                        <div class="brick-item-img">
+                                            <img src="./images/2_5.jpg" alt="">
+                                        </div>
+                                        <h3>小米真无线蓝牙耳机Air2 SE</h3>
+                                        <p>放肆听，畅快听</p>
+                                        <p class="price">
+                                            129元起
+                                            <del style="color: #b0b0b0;">
+                                                <span>169元</span>
+                                            </del>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item_a">
+                                    <a href="#">
+                                        <div class="figure_more_a">
+                                            <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
+                                        </div>
+                                        <div class="more_a">
+                                            浏览更多
+                                            <small>热门</small>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- 底部信息 -->
+<div class="bottom_information_box">
+    <div class="bottom_info">
+        <div class="container">
+            <div class="footer-service">
+                <ul class="list-service">
+                    <li>
+                        <a href="">
+                            <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+                            预约维修服务
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+                            7天无理由退货
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+                            15天免费换货
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
+                            满69元包邮
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                            520余家售后网点
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <dl class="col-links col-links-first">
+                    <dt>帮助中心</dt>
+                    <dd>账户管理</dd>
+                    <dd>购物指南</dd>
+                    <dd>订单操作</dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>服务帮助</dt>
+                    <dd>售后政策</dd>
+                    <dd>自助服务</dd>
+                    <dd>相关下载</dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>线下门店</dt>
+                    <dd>小米之家</dd>
+                    <dd>服务网点</dd>
+                    <dd>授权体验店/专区</dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>关于小米</dt>
+                    <dd>了解小米</dd>
+                    <dd>加入小米</dd>
+                    <dd>投资者关系</dd>
+                    <dd>企业社会责任</dd>
+                    <dd>廉洁举报</dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>关注我们</dt>
+                    <dd>新浪微博</dd>
+                    <dd>官方微信</dd>
+                    <dd>联系我们</dd>
+                    <dd>公益基金会</dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>特色服务</dt>
+                    <dd>F 码通道</dd>
+                    <dd>礼物码</dd>
+                    <dd>防伪查询</dd>
+                </dl>
+                <div class="col-contact">
+                    <p class="phone">400-100-5678</p>
+                    <p>8:00-18:00(仅收市话费)</p>
+                    <a href="#" class="btn-line-primary">人工服务</a>
+                    <div class="follow">
+                        关注小米：
+                        <a class="wb"></a>
+                        <a class="wx"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- 登录界面 -->
+<div >
+    <!-- 登录 -->
+    <div class="main_box akw">
+        <div class="login_box">
+            <h3><span>用户登录</span></h3>
+            <form method="get">
+                <div class="form_all_box">
+                    <input type="text" class="form_box" id="uers" placeholder="用户名">
+                    <span id="usernameError"></span>
+                </div>
+                <div class="form_all_box">
+                    <input type="password" class="form_box" id="password" placeholder="密码(字母与数字的组合)">
+                    <span id="passwordError"></span>
+                </div>
+            </form>
+            <div class="select_btn">
+                <h4 class="ml">
+                    <input type="checkbox" name="select" value="下次自动登录"><span>下次自动登录</span>
+                </h4>
+                <h4 class="mr">
+                    <span class="forget_pw">忘记密码？<a href="#">找回</a></span>
+                </h4>
+            </div>
+            <div class="form_all_box ">
+                <button type="submit" class="btn_box" id="register" onclick="outClick()">
+                    <a style="text-decoration: none; color: #ffffff; font-size: 16px; margin-left: -20px;">登陆</a> 
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- 遮盖层 -->
+    <div class="shadow"></div>
+</div>
+
+
+    <!-- 右侧返回顶部按钮 -->
+    <div class="return_top_box">
+        <a>
+            <div>
+                <img src="./images/return_top_1_b.jpg" alt="">
+            </div>
+            <span>
+                手机APP
+            </span>
+        </a>
+        <a>
+            <div>
+                <img src="./images/return_top_2.jpg" alt="">
+            </div>
+            <span>
+                个人中心
+            </span>
+        </a>
+        <a>
+            <div>
+                <img src="./images/return_top_3.jpg" alt="">
+            </div>
+            <span>
+                售后服务
+            </span>
+        </a>
+        <a>
+            <div>
+                <img src="./images/return_top_4.jpg" alt="">
+            </div>
+            <span>
+                人工服务
+            </span>
+        </a>
+        <a>
+            <div>
+                <img src="./images/return_top_5.jpg" alt="">
+            </div>
+            <span>
+                购物车
+            </span>
+        </a>
+        <a href="#" id="return" style="margin-top: 40px; display: none;">
+            <div>
+                <img src="./images/return_top_6.jpg" alt="">
+            </div>
+            <span class="top">
+                回到顶部
+            </span>
+        </a>
+    </div>
+
+
+    <script>
+
+        // 登录界面登录按钮
+        var retn= document.getElementById("register")
+        retn.disabled=true;
+
+        // 表单验证
+        // 用户名验证
+        var retVal = true;
+        var usernameElt = document.getElementById("uers");
+        var usernameErrorSpan=document.getElementById("usernameError");
+        //用户名正则表达式
+        var usernameRegExp = /^[a-zA-Z0-9_-]{4,16}$/;
+
+        usernameElt.onchange=function(){
+            var username = usernameElt.value.trim();
+            usernameElt.value = username;
+            var usernameRetVal = usernameRegExp.test(username);
+            if (!(usernameElt.value=="")) {
+                    if (!usernameRetVal) {
+                        //获取用户名后文本对象
+                        usernameErrorSpan.innerHTML = "<font color='red'>用户名不符合格式</font>";
+                    } else {
+                        usernameErrorSpan.innerHTML = "<font color='green'>用户名符合格式</font>";
+                        retn.disabled=false;
+                    }
+                }else {
+                    usernameErrorSpan.innerHTML="<font color='red'>用户名不能为空</font>"
+                }
+            
+        }
+
+           //获取焦点，清除span内容
+           usernameElt.onfocus=function () {
+                //如果username等于一个或多个空格
+                //清空非法value,使用index函数，结果等于-1，则不含有该字符串
+                if(!(usernameErrorSpan.innerText.indexOf("不")==-1)){
+                    //如果usernameError不为空串,字符串中含有"不"清空value
+                    usernameElt.value="";
+                }
+                //清空span内容
+                usernameErrorSpan.innerText="";
+            }
+
+            var passwordElt=document.getElementById("password");
+            var  passwordErrorSpan=document.getElementById("passwordError")
+            var passwordRegExp=/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z\\W]{6,18}$/
+            //密码验证
+            passwordElt.onchange=function () {
+                //去除前后空白
+                var password=passwordElt.value.trim();
+                passwordElt.value=password;
+                //password不为空开始验证
+                if(!(passwordElt.value=="")){
+                    //密码格式验证
+                    var passwordRetVal=passwordRegExp.test(password);
+                    if(passwordRetVal){
+                       passwordErrorSpan.innerHTML="<font color='green'>密码格式正确</font>"
+                        retn.disabled=false;
+                    }else{
+                        passwordErrorSpan.innerHTML="<font color='red'>密码格式不正确(数字和字母结合)</font>"
+                    }
+                }else{
+                    //密码不能为空
+                    passwordErrorSpan.innerHTML="<font color='red'>密码不能为空</font>"
+                }
+
+            }
+
+
+        // 登录按钮
+        function addClick(){
+            $(".akw").css({'display':'block'});
+            document.body.style.overflow = "hidden";
+            $(".shadow").css({'display':'block'});
+            return 0;
+    }
+        function outClick(){
+            $(".akw").css({'display':'none'});
+            document.body.style.overflow = "auto";
+            $(".shadow").css({'display':'none'});
+            location.reload();
+
+            return 0;
+        }
+
+
+        // 倒计时
+        var shi = document.getElementById("shi");
+        var fen = document.getElementById("fen");
+        var maio = document.getElementById("miao1");
+        function daojishi() {
+            var olddate = new Date();
+            var yuandan = new Date("2023 / 1 / 1 ");
+            yuandan.setHours(0, 0)
+            var num = yuandan.getTime() - olddate.getTime();
+            // 获取小时数
+            xiaoshi = Math.floor((num % (86400 * 1000)) / 3600 / 1000)
+
+            xiaoshi = xiaoshi < 10 ? '0' + xiaoshi : xiaoshi;
+            // 获取分钟数
+            fenzhong = Math.floor((num % (86400 * 1000 * 3600)) / 60 / 1000) % 60
+
+            fenzhong = fenzhong < 10 ? '0' + fenzhong : fenzhong;
+            // 获取秒
+            miao = Math.floor(num / 1000) % 60
+
+            miao = miao < 10 ? '0' + miao : miao;
+            //给i为shi的sapn添加定时小时内容
+            shi.innerHTML = `${xiaoshi}`
+            fen.innerHTML = `${fenzhong}`
+            miao1.innerHTML = `${miao}`
+        }
+        setInterval(daojishi, 1000)
+
+    // 返回顶部按钮出现及消失
+    function getScrollTop() {  
+        var ret = document.getElementById("return");
+        var scrollPos;  
+        if (window.pageYOffset) {  
+        scrollPos = window.pageYOffset; }  
+        else if (document.compatMode && document.compatMode != 'BackCompat')  
+        { scrollPos = document.documentElement.scrollTop; }  
+        else if (document.body) { scrollPos = document.body.scrollTop; }  
+
+        if(scrollPos>400){
+            ret.style.display='block';
+        }else{
+            ret.style.display='none';
+        }
+
+        return scrollPos;   
+    }  
+    setInterval(getScrollTop, 100);
+    
+    </script>
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://fastly.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="./bootstrap框架/js/bootstrap.js"></script>
+  </body>
+</html>

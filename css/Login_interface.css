@@ -1,0 +1,68 @@
+/* 登录界面 */
+
+.main_box{
+    width: 400px;
+    margin: 0px auto;
+    padding: 110px 0 60px 0 ;
+
+}
+.login_box{
+    height: 370px;
+    font-family: normal;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom , #cfd9df, #e4e5e6);
+}
+.login_box h3{
+    height: 30px;
+    font-size: 14px;
+    padding: 4px 30px;
+    border-bottom: 1px solid gray; 
+}
+.login_box h3 span{
+    font-weight: bold;
+    float: left;
+    font-size: 20px;
+}
+.ml{
+    float: left;
+}
+.mr{
+    float: right;
+}
+.form_all_box{
+    padding: 0 30px;
+    color: gray;
+}
+.form_box{
+    display: inline-block; 
+    height: 40px;width: 338px; 
+    color: gray; border: 1px solid gray;
+    margin-top: 35px; padding:0; 
+    text-indent: 10px; 
+    line-height: 40px;
+    border-radius: 4px;
+}
+.select_btn{
+    font-family: normal;
+    font-size: 14px;
+    padding: 4px 30px;
+}
+.form_all_box button{
+    padding: 0 30px;
+    border: 1px solid #1f95e2;
+}
+.btn_box{
+    display: inline-block; 
+    height: 40px;width: 338px; 
+    margin-top: 15px; padding:0; 
+    text-indent: 10px; 
+    line-height: 40px;
+    border-radius: 4px;width: 100%;  
+    font-size: 16px; 
+    letter-spacing: 4px;
+    /* font-color: white; */
+    background-color: blue;
+    color: #fff;
+    background-color: #1f95e2;
+}

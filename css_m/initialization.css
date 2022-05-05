@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: #333;
+    background-color: #fff;
+    font-size: .22rem;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    flex-basis: 100%;
+}
+
+#app{
+    font-size: .22rem;
+    position: static;
+    text-align: center;
+    color: #3c3c3c;
+    user-select: none;
+    touch-action: manipulation;
+    text-size-adjust: none;
+}
+
+.app-shell{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.app-view-wrapper{
+    position: relative;
+    margin: 0px auto;
+}
+
+.app-view{
+    padding-bottom: .9rem;
+    background: #fff;
+}

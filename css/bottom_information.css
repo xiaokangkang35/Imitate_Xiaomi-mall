@@ -1,0 +1,123 @@
+/* 底部信息 */
+
+.footer-service{
+    padding: 27px 0px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.list-service{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    height: 25px;
+}
+
+.list-service li{
+    float: left;
+    width: 19.8%;
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+}
+
+.list-service li:first-child{
+    border-left: 0px;
+}
+
+.list-service a{
+    color: #616161;
+}
+
+.list-service a span{
+    margin-right: 6px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer-links{
+    padding: 40px 0px;
+    display: table;
+}
+
+.col-links{
+    float: left;
+    width: 160px;
+    margin: 0px;
+}
+
+.col-links dt{
+    margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242 !important;
+}
+
+.col-links dd{
+    margin: 10px 0 0;
+    font-size: 12px;
+    color: #757575;
+}
+
+.col-contact{
+    float: right;
+    width: 251px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color: #616161;
+}
+
+.phone{
+    font-size: 22px !important;
+    line-height: 1;
+    color: #ff6700;
+    margin: 0px 0px 5px 0px;
+}
+
+.col-contact p{
+    margin: 0 0 5px 0;
+    font-size: 12px;
+}
+
+.btn-line-primary{
+    border-color: #ff6700 !important;
+    background: #fff;
+    color: #ff6700;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    display: inline-block;
+    width: 158px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #b0b0b0;
+    text-align: center;
+}
+
+.follow {
+    font-size: 12px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.follow a{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 6px;
+    margin-top: -3px;
+}
+
+.wb{
+    background: url(../images/wb.png);
+    background-size: cover;
+}
+
+.wx{
+    background: url(../images/wx.png);
+    background-size: cover;
+}
