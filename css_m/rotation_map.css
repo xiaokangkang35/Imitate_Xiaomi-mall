@@ -1,0 +1,20 @@
+.rotation_map_box{
+    width: 100vw;
+
+}
+
+.rotation_map_box img{
+    width: 100%;
+}
+
+.img1{
+    display: block;
+}
+
+.img2{
+    display: none;
+}
+
+.img3{
+    display: none;
+}

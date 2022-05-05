@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css_m/header.css">
     <link rel="stylesheet" href="./css_m/m_primary_coverage.css">
     <link rel="stylesheet" href="./css_m/bottom.css">
+    <link rel="stylesheet" href="./css_m/rotation_map.css">
     <script src="./js/index-m.js"></script>
 
 </head>
@@ -67,7 +68,11 @@
     <div class="primary_coverage_box">
 
         <!-- 轮播图 -->
-
+        <div class="rotation_map_box">
+            <img class="img-slide img1" src="./images_m/map_1.jpg" alt="">
+            <img class="img-slide img2" src="./images_m/map_2.jpg" alt="">
+            <img class="img-slide img3" src="./images_m/map_3.jpg" alt="">
+        </div>
 
         <div class="photo">
             <a href="#" class="photo_img_1">
@@ -135,4 +140,20 @@
         </div>
     </div>
 </body>
+
+<script>
+        var index=0;
+    //效果
+    function ChangeImg() {
+        index++;
+        var a=document.getElementsByClassName("img-slide");
+        if(index>=a.length) index=0;
+        for(var i=0;i<a.length;i++){
+            a[i].style.display='none';
+        }
+        a[index].style.display='block';
+    }
+    //设置定时器，每隔两秒切换一张图片
+    setInterval(ChangeImg,4000);
+</script>
 </html>
