@@ -76,6 +76,8 @@
     flex-wrap: wrap;
 }
 
+
+
 .img_box img{
     width: .4rem;
     height: .4rem;
@@ -90,7 +92,7 @@
 .vector{
     position: absolute;
     right: 0;
-
+    top: 4px;
     width: .68rem;
     height: .25rem;
     line-height: .25rem;
