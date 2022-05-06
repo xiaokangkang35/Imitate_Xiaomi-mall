@@ -90,7 +90,7 @@
 .vector{
     position: absolute;
     right: 0;
-
+    top: 4px;
     width: .68rem;
     height: .25rem;
     line-height: .25rem;
