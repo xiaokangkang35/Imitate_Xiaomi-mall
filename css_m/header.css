@@ -7,7 +7,7 @@
 }
 
 .header_first{
-    height: .84rem;
+    height: 9.5vw;
     background-color: #f2f2f2;
     padding: 0px;
     display: flex;
@@ -16,10 +16,11 @@
 }
 
 .header_logo{
-    width: .6rem;
+    width: 8vw;
     display: flex;
     align-items: center;
     margin: 0 .2rem;
+    z-index: 3;
 }
 
 .header_logo img{
@@ -36,24 +37,25 @@
 .header_title{
     border: 1px solid #e5e5e5;
     width: 100%;
+    height: 7vw;
     text-align: left;
     background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    font-size: .3rem;
+    font-size: 4vw;
     color: rgba(0,0,0,.3);
 }
 
 .title_img{
-    width: .6rem;
-    padding: .1rem;
+    width: 5vw;
+    padding: 1vw;
     display: flex;
 }
 
 .title_img img{
-    width: .4rem;
-    height: .4rem;
+    width: 10vw;
+    height: 5vw;
 }
 
 .header_right{
@@ -62,15 +64,16 @@
 }
 
 .header_item{
-    width: .6rem;
-    margin: 0 .2rem;
+    width: 10vw;
+    margin: 0 0.1vw;
+    right: 0;
 }
 
 .img_box{
     display: flex;
-    width: .6rem;
-    height: .6rem;
-    padding: .1rem;
+    width: 10vw;
+    height: 10vw;
+    padding: 2.5vw;
     justify-content: flex-start;
     align-content: center;
     flex-wrap: wrap;
@@ -79,21 +82,22 @@
 
 
 .img_box img{
-    width: .4rem;
-    height: .4rem;
+    width: 5vw;
+    height: 5vw;
 }
 
 .header_second{
     position: relative;
     overflow: hidden;
-    height: .6rem;
+    height: 8vw;
+    width: 100vw;
 }
 
 .vector{
     position: absolute;
     right: 0;
-    top: 4px;
-    width: .68rem;
+    top: 1vw;
+    width: 8vw;
     height: .25rem;
     line-height: .25rem;
     background-color: #f2f2f2;
@@ -101,27 +105,30 @@
 }
 
 .vector img{
-    width: .4rem;
-    height: .4rem;
+    width: 5vw;
+    height: 5vw;
 }
 
 .nav{
     background-color: #f2f2f2;
-    font-size: .3rem;
+    font-size: 5vw;
     white-space: nowrap;
+    width: 100%;
+    padding: 0vw 10vw;
 }
 
 .nav-item{
     display: inline-block;
-    padding: 0 .25rem;
-    font-size: .1rem;
+    /* padding: 0 .25rem; */
+    font-size: 5vw;
+    width: 15vw;
 }
 
 .nav-item span{
     display: inline-block;
-    line-height: .55rem;
-    border-bottom: 2px solid rgba(237,91,0,0);
-    font-size: .3rem;
+    line-height: 4vw;
+    border-bottom: 2.5px solid rgba(237,91,0,0);
+    font-size: 4vw;
     color: rgb(116, 116, 116);
     border-color: rgb(242, 242, 242);
 }

@@ -14,6 +14,14 @@
     <link rel="stylesheet" href="./css_m/rotation_map.css">
     <script src="./js/index-m.js"></script>
 
+    <style>
+        .k{
+    color: rgb(237, 91, 0) !important;
+    border-color: rgb(237, 91, 0) !important;
+        }
+
+    </style>
+
 </head>
 <body>
 
@@ -45,20 +53,19 @@
             </div>
             <div class="nav">
                 <div class="nav-item">
-                    <span style="    color: rgb(237, 91, 0);
-                    border-color: rgb(237, 91, 0);">推荐</span>
+                    <span id="top_1" class="k">推荐</span>
                 </div>
                 <div class="nav-item">
-                    <span>智能</span>
+                    <span id="top_2">智能</span>
                 </div>
                 <div class="nav-item">
-                    <span>电视</span>
+                    <span id="top_3">电视</span>
                 </div>
                 <div class="nav-item">
-                    <span>家电</span>
+                    <span id="top_4">家电</span>
                 </div>
                 <div class="nav-item">
-                    <span>笔记本</span>
+                    <span id="top_5">笔记本</span>
                 </div>
             </div>
         </div>
@@ -212,5 +219,48 @@
     }
     //设置定时器，每隔两秒切换一张图片
     setInterval(ChangeImg,4000);
+
+
+    var top_1 = document.getElementById("top_1");
+    top_1.onclick=function(){
+
+        top_1.className='k';
+        top_2.classList.remove('k');
+        top_3.classList.remove('k');
+        top_4.classList.remove('k');
+        top_5.classList.remove('k');
+    }
+    var top_2 = document.getElementById("top_2");
+    top_2.onclick=function(){
+        top_2.className='k';
+        top_1.classList.remove('k');
+        top_3.classList.remove('k');
+        top_4.classList.remove('k');
+        top_5.classList.remove('k');
+    }
+    var top_3 = document.getElementById("top_3");
+    top_3.onclick=function(){
+        top_3.className='k';
+        top_1.classList.remove('k');
+        top_2.classList.remove('k');
+        top_4.classList.remove('k');
+        top_5.classList.remove('k');
+    }
+    var top_4 = document.getElementById("top_4");
+    top_4.onclick=function(){
+        top_4.className='k';
+        top_1.classList.remove('k');
+        top_3.classList.remove('k');
+        top_2.classList.remove('k');
+        top_5.classList.remove('k');
+    }
+    var top_5 = document.getElementById("top_5");
+    top_5.onclick=function(){
+        top_5.className='k';
+        top_1.classList.remove('k');
+        top_3.classList.remove('k');
+        top_4.classList.remove('k');
+        top_2.classList.remove('k');
+    }
 </script>
 </html>
