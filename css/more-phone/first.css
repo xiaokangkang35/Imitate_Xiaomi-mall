@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+
+.lable{
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.title-1{
+    position: relative;
+}
+
+.title h2{
+    line-height: 64px;
+    margin: 0;
+    padding-top: 4px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.product{
+    height: 482px;
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.row{
+    height: 100%;
+    margin-left: -14px;
+}
+
+.shadow{
+    position: relative;
+    height: 100%;
+    background: #fff;
+    text-align: left;
+    overflow: hidden;
+    width: 606px;
+    float: left;
+    margin-left: 14px;
+    min-height: 1px
+}
+
+.figure{
+    width: 100%;
+    height: 358px;
+}
+
+.figure img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    font-weight: 400;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 26px;
+    margin: 38px 0 0 48px;
+    font-size: 1.17em;
+}
+
+.title a{
+    color: rgba(51,51,51,.9);
+    font-size: 24px;
+}
+
+.desc{
+    line-height: 18px;
+    margin: 3px 0 0 48px;
+    color: #333;
+    color: rgba(51,51,51,.7);
+    font-size: 14px;
+}
+
+.price{
+    line-height: 30px;
+    color: #ff6700;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    right: 48px;
+    bottom: 30px;
+    margin: 0;
+}
+
+.price strong{
+    font-weight: 400;
+    font-size: 30px;
+}
