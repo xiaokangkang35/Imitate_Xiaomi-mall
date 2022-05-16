@@ -47,5 +47,45 @@ window.onload=function(){
     link_1.onmouseout = link_2.onmouseout=function(){
         link_2.style.display='none';
         link_3.style.zIndex='1';
+    }    
+}
+
+function addClick(){
+    var checkSpan = document.getElementById('check-span');
+    var checkClass = checkSpan.className;
+    var icon = document.getElementById('icon');
+    if(checkClass.length<=10){
+        checkSpan.classList.add('checkbox-checked');
+        icon.classList.remove('iconfont');
+    }else{
+        checkSpan.classList.remove('checkbox-checked');
+        icon.classList.add('iconfont');
+    }
+}
+
+function addClick_1(){
+    var checkSpan = document.getElementById('check-span_1');
+    var checkClass = checkSpan.className;
+    var icon = document.getElementById('icon_1');
+    if(checkClass.length<=10){
+        checkSpan.classList.add('checkbox-checked');
+        icon.classList.remove('iconfont');
+    }else{
+        checkSpan.classList.remove('checkbox-checked');
+        icon.classList.add('iconfont');
+    }
+}
+
+
+function addClick_2(){
+    var checkSpan = document.getElementById('check-span_2');
+    var checkClass = checkSpan.className;
+    var icon = document.getElementById('icon_2');
+    if(checkClass.length<=10){
+        checkSpan.classList.add('checkbox-checked');
+        icon.classList.remove('iconfont');
+    }else{
+        checkSpan.classList.remove('checkbox-checked');
+        icon.classList.add('iconfont');
     }
 }
