@@ -50,7 +50,7 @@ window.onload=function(){
     }    
 }
 
-function addClick(){
+function addClick_1(){
     var checkSpan = document.getElementById('check-span');
     var checkClass = checkSpan.className;
     var icon = document.getElementById('icon');
@@ -63,7 +63,7 @@ function addClick(){
     }
 }
 
-function addClick_1(){
+function addClick_2(){
     var checkSpan = document.getElementById('check-span_1');
     var checkClass = checkSpan.className;
     var icon = document.getElementById('icon_1');
@@ -77,7 +77,7 @@ function addClick_1(){
 }
 
 
-function addClick_2(){
+function addClick_3(){
     var checkSpan = document.getElementById('check-span_2');
     var checkClass = checkSpan.className;
     var icon = document.getElementById('icon_2');
