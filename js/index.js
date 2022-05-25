@@ -44,8 +44,6 @@ window.onload=function(){
         b2.style.display='none';
     }
 
-
-
     var about_left=document.getElementById("one");
     var about_right= document.getElementById("two");
     var about=document.getElementById("two_2");
@@ -63,11 +61,19 @@ window.onload=function(){
         about_left.className="tab-list-after";
         about_right.classList.remove("tab-list-after");
     }
+  
+}
 
-
-    
+function adclick(){
+    var adver_1 = document.getElementById('advertisement');
+    adver_1.style.display='none';
 }
 
 
+// 用户点击刷新后返回页面顶部
+window.onbeforeunload = function(){
+    document.documentElement.scrollTop = 0;  //ie下
+    document.body.scrollTop = 0;  //非ie
+}
 
 
