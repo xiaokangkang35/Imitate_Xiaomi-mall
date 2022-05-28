@@ -254,9 +254,16 @@ a{
     color: #ff6700;
 }
 
+.btn-line-primary:hover{
+    color: #fff;
+    background-color: #f25807;
+    border-color: #f25807;
+}
+
 .btn-small{
     width: 118px;
     height: 28px;
     font-size: 12px;
     line-height: 28px;
 }
+
