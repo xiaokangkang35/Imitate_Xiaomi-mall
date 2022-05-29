@@ -34,13 +34,14 @@
     height: 30px;
 }
 
+.hover{
+    opacity: 0;
+}
+
 .return_top_box a span{
     color: #757575;
 }
 
-.return_top_box a span:hover{
-    color: #ff6700;
-}
 
 .top:hover{
     color: #757575 !important;
