@@ -62,17 +62,6 @@ window.onload=function(){
         about_right.classList.remove("tab-list-after");
     }
 
-    // var r_f = document.getElementById('r_first');
-    // var r_img_f = document.getElementById('r-img-first');
-    // var r_span = document.getElementById('r-first-span');
-    // r_f.onmouseover=function(){
-    //     r_img_f.style.opacity='1';
-    //     r_span.style.color='#ff6700';
-    // }
-    // r_f.onmouseout=function(){
-    //     r_img_f.style.opacity='0';
-    //     r_span.style.color='#757575';
-    // }
     function right_button(a,b,c){
         var r_f = document.getElementById(a);
         var r_img_f = document.getElementById(b);
@@ -105,8 +94,5 @@ window.onbeforeunload = function(){
     document.body.scrollTop = 0;  //非ie
 }
 
-function right_button(){
-    
-}
 
 
