@@ -61,7 +61,25 @@ window.onload=function(){
         about_left.className="tab-list-after";
         about_right.classList.remove("tab-list-after");
     }
-  
+
+    function right_button(a,b,c){
+        var r_f = document.getElementById(a);
+        var r_img_f = document.getElementById(b);
+        var r_span = document.getElementById(c);
+        r_f.onmouseover=function(){
+        r_img_f.style.opacity='1';
+        r_span.style.color='#ff6700';
+    }
+        r_f.onmouseout=function(){
+        r_img_f.style.opacity='0';
+        r_span.style.color='#757575';
+    }
+    }
+    right_button('r_first','r-img-first','r-first-span');
+    right_button('r-2','r-i-2','r-s-2');
+    right_button('r-3','r-i-3','r-s-3');
+    right_button('r-4','r-i-4','r-s-4');
+    right_button('r-5','r-i-5','r-s-5');
 }
 
 function adclick(){
@@ -75,5 +93,6 @@ window.onbeforeunload = function(){
     document.documentElement.scrollTop = 0;  //ie下
     document.body.scrollTop = 0;  //非ie
 }
+
 
 
