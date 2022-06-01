@@ -239,9 +239,10 @@ a:hover{
     left: 0px;
     z-index: 10;
     width: 100%;
-    border-top: 1px solid #e0e0e0;
+    box-shadow: 0 3px 4px rgb(0 0 0 / 18%);
     background-color: #fff;
     overflow: hidden;
+    transition: all .3s;
 }
 
 .children-list-col{

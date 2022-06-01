@@ -16,24 +16,19 @@ window.onload=function(){
         box.style.display='none';
     }
 
-    var a1 = document.getElementById("nav-item-1");
-    var a2 = document.getElementById("header-nav-menu_1");
-    a1.onmouseover = a2.onmouseover = function(){
-        a2.style.display='block';
-    }
-    a1.onmouseout = a2.onmouseout = function(){
-        a2.style.display='none';
-    }
-
-    var aa = document.getElementById("nav-item-2");
-    var ab = document.getElementById("header-nav-menu_2");
-    aa.onmouseover = ab.onmouseover = function(){
-        ab.style.display='block';
-    }
-    aa.onmouseout = ab.onmouseout = function(){
-        ab.style.display='none';
+    function navigation(nav,nav_menu){
+        var a1 = document.getElementById(nav);
+        var a2 = document.getElementById(nav_menu);
+        a1.onmouseover = a2.onmouseover = function(){
+            a2.style.height='229px';
+        }
+        a1.onmouseout = a2.onmouseout = function(){
+            a2.style.height='0px';
+        }
     }
 
+    navigation("nav-item-1","header-nav-menu_1");
+    navigation("nav-item-2","header-nav-menu_2");
 
     var b1 = document.getElementById("col-1");
     var b2 = document.getElementById("list-col-1");
@@ -63,17 +58,17 @@ window.onload=function(){
     }
 
     function right_button(a,b,c){
-        var r_f = document.getElementById(a);
-        var r_img_f = document.getElementById(b);
-        var r_span = document.getElementById(c);
+            var r_f = document.getElementById(a);
+            var r_img_f = document.getElementById(b);
+            var r_span = document.getElementById(c);
         r_f.onmouseover=function(){
-        r_img_f.style.opacity='1';
-        r_span.style.color='#ff6700';
-    }
-        r_f.onmouseout=function(){
-        r_img_f.style.opacity='0';
-        r_span.style.color='#757575';
-    }
+            r_img_f.style.opacity='1';
+            r_span.style.color='#ff6700';
+        }
+            r_f.onmouseout=function(){
+            r_img_f.style.opacity='0';
+            r_span.style.color='#757575';
+        }
     }
     right_button('r_first','r-img-first','r-first-span');
     right_button('r-2','r-i-2','r-s-2');
