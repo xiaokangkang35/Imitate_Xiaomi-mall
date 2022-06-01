@@ -9,11 +9,16 @@ window.onload=function(){
 
     var btn = document.getElementById('shopping_cart_before');
     var box = document.getElementById('shopping_cart_after');
+    var box_text = document.getElementById('shopping_cart_after_text')
     box.onmouseover = btn.onmouseover = function(){
-        box.style.display= 'block';
+        box.style.height='100px';
+        btn.classList.add('cart-mini_hover');
+        box_text.style.display='block';
     }
     box.onmouseout = btn.onmouseout = function(){
-        box.style.display='none';
+        box.style.height='0px';
+        btn.classList.remove('cart-mini_hover');
+        box_text.style.display='none';
     }
 
     function navigation(nav,nav_menu){
