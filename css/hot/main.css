@@ -249,6 +249,14 @@ a:hover{
     background-color: #fff;
 }
 
+.goods-item:hover{
+    z-index: 2;
+    -webkit-box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+    box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+    -webkit-transform: translate3d(0,-2px,0);
+    transform: translate3d(0,-2px,0);
+}
+
 .goods-item>a{
     display: block;
     padding-top: 47px;
