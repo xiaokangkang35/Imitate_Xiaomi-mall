@@ -1,0 +1,82 @@
+.breadcrumbs{
+    color: #757575;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    background: #f5f5f5;
+    z-index: 2;
+    position: relative;
+}
+
+
+.fast-container{
+    min-width: 1226px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.section-top{
+    height: 550px;
+    background: #fff;
+}
+
+.section-top .container{
+    margin: 0 auto;
+    width: 1226px;
+}
+
+.content{
+    margin: 143px 0 0 206px;
+    float: left;
+    color: #333;
+    font-size: 24px;
+}
+
+.content .webfont{
+    font-family: F620b5;
+}
+
+.content h1{
+    font-size: 72px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.webfont em{
+    font-style: normal;
+    color: #ff6709;
+}
+
+.btn-check{
+    display: block;
+    margin: 22px 0 0 42px;
+    width: 222px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background: #ff6709;
+}
+
+.bg-pic{
+    float: left;
+    margin: 96px 0 0 145px;
+    width: 335px;
+    height: 336px;
+    background: url(../../images/server/bg-top.png);
+}
+
+
+.section-flow{
+    height: 713px;
+    background: url(../../images/server/bg-flow.jpg);
+}
+
+.section-flow h3{
+    padding-top: 138px;
+    text-align: center;
+    font-size: 54px;
+    color: #fff;
+}

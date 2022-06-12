@@ -22,12 +22,18 @@
     border-left: 1px solid #e0e0e0;
 }
 
+
 .list-service li:first-child{
     border-left: 0px;
 }
 
 .list-service a{
     color: #616161;
+}
+
+
+.list-service a:hover{
+    color: #ff6700;
 }
 
 .list-service a span{
